@@ -1,10 +1,10 @@
 'use client';
 
 import { useState } from 'react';
-import { MainTitle } from "../Ui";
+import { MainTitle } from "../";
 import ProjectsFilter from "./ProjectsFilter";
 import ProjectsLayout from "./ProjectsLayout";
-import { projects } from "@/app"; 
+import { projects } from '@/data/projects'; 
 
 interface Project {
   id: number;

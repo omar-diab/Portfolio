@@ -1,7 +1,7 @@
 'use client';
 
 import Image from 'next/image';
-import Buttons from '../Ui/Buttons';
+import { Buttons } from '../';
 
 interface Project {
   id: number;

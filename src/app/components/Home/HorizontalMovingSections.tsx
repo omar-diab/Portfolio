@@ -3,7 +3,7 @@
 import { useRef, useEffect } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import { Skills, Languages, Experience, Education } from "./";
+import { Skills, Languages, Experience, Education } from "../";
 
 const HorizontalMovingSections = () => {
   const sectionsRef = useRef<HTMLDivElement[]>([]);

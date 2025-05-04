@@ -3,7 +3,7 @@ import "./globals.css";
 import { Playfair_Display } from "next/font/google";
 
 import { Header } from "./components";
-import AOSInitializer from './components/AOSInitializer';
+import AOSInitializer from '../utils/AOSInitializer';
 
 export const metadata: Metadata = {
   title: "OMAR DIAB",

@@ -1,6 +1,6 @@
 
-import { skills } from '@/app'
-import { MainTitle } from '../Ui'
+import { skills } from '@/data/skills'
+import { MainTitle } from '../'
 
 const Skills = () => {
   return (
@@ -13,11 +13,11 @@ const Skills = () => {
           title="SKILLS"
         />
         
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 p-4" data-aos="fade-up" data-aos-delay="150">
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-2 p-4" data-aos="fade-up" data-aos-delay="150">
           {skills.map((skill, index) => (
             <div 
               key={index}
-              className="border-b-2 border-primary p-4 rounded-lg"
+              className="border-b-2 border-primary p-3 rounded-lg"
             >
               <p className="text-white text-center font-medium">
                 {skill.name}

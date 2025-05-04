@@ -1,4 +1,4 @@
-import { MainTitle } from "../Ui";
+import { MainTitle } from "../";
 import ContactForm from "./ContactForm";
 import ContactWays from "./ContactWays";
 

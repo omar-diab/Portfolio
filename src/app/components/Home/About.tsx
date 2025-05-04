@@ -1,3 +1,4 @@
+
 const About = () => {
   return (
     <section id="about" className="w-full h-full py-28 px-6">

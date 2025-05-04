@@ -1,5 +1,5 @@
-import { experience } from "@/app";
-import { MainTitle } from "../Ui";
+import { experience } from "@/data/content";
+import { MainTitle } from "../";
 
 
 const Experience = () => {

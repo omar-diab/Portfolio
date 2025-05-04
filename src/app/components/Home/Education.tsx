@@ -1,5 +1,5 @@
-import { education } from "@/app";
-import { MainTitle } from "../Ui";
+import { education } from "@/data/content";
+import { MainTitle } from "../";
 
 const Education = () => {
   return (

@@ -1,5 +1,5 @@
-import { languages } from "@/app";
-import { MainTitle } from "../Ui";
+import { languages } from "@/data/content";
+import { MainTitle } from "../";
 
 const Languages = () => {
   return (

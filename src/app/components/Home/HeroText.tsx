@@ -1,6 +1,6 @@
 import Link from "next/link";
-import { socialLinks } from "@/app";
-import { DownloadButton } from "../Ui";
+import { socialLinks } from "@/data";
+import { DownloadButton } from "../";
 
 const HeroText = () => {
   return (
